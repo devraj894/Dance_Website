@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar{
+    background-color: black;
+    padding: 12px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    font-family:cursive;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 13px 37px;
+    color: white;
+}
+#navbar li a:hover{
+    color: gray;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+    right: 410px;
+}
+#logo img{
+    height: 60px;
+}
+.btn1{
+    position: relative;
+    left: 1000px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn2{
+    position: relative;
+    left: 1000px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn1:hover{
+    text-decoration:underline;
+}
+.btn2:hover{
+    text-decoration:underline;
+}
+#introSection{
+    color: white;
+    height: 550px;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}
+#introSection div{
+    font-family:cursive;
+    font-size: 3rem;
+}
+#introSection div.small{
+    font-family:cursive;
+    font-size: 1rem;
+}
+#missionSection{
+    height: 300px;
+    background-color: grey;
+}
+#missionSection h1{
+    background-color: grey;
+    text-align: center;
+    font-family: cursive;
+}
+.cards{
+    font-family: cursive;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid rgb(203, 158, 158);
+    width: 30%;
+    border-radius: 20px;
+    margin: 12px 25px;
+    height: 250px;
+    background-color: rgb(149, 196, 196);
+}
+.img-box{
+    display: flex;
+    align-items: center;
+}
+.img-box img{
+    height: 200px;
+}    
+#sponsorsSection{
+    font-family: cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    height: 300px;
+    background-color: pink;
+}
+.sponsors img{
+    height: 200px;
+    padding: 50px;
+}
+#footer{
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+doctype html
+html
+  title Devraj Dance Academy
+  head
+    block scripts
+    block style
+  body
+    nav#navbar
+      ul 
+          button(class="btn1")
+            | Sign up 
+          button(class="btn2")
+            | Sign in
+          div#logo
+             img(src="/static/logo1.png")
+             | HDA
+          li #[a(href='/') Home]
+          li #[a(href='/') About] 
+          li #[a(href='/') Classes] 
+          li #[a(href='/contact') Contact us]
+
+    block content
+    footer#footer 
+      | Copyright © 2023 www.DevrajDanceAcademy.com. All right reserved.

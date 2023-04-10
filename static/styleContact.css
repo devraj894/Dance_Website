@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.myInput{
+    text-align: center;
+    width: 400px;
+    margin: 5px;
+    padding: 3px;
+}
+.btn{
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 2px;
+}

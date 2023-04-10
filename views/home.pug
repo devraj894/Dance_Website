@@ -1,0 +1,42 @@
+extends base.pug
+
+block scripts
+  script(src="/static/index.js") 
+
+block style 
+  style 
+     include ../static/style.css
+
+block content
+
+  section#introSection 
+        div Welcome to Devraj's Dance Academy
+        div.small eat sleep dance repeat....! 
+
+  section#missionSection 
+        h1 Missions 
+        div.cards
+          h3 Dance perfection
+          div.img-box 
+             img(src="/static/logo2.png")
+             div.img-content 
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        div.cards
+          h3 Dance the way you like
+          div.img-box 
+             img(src="/static/logo3.png")
+             div.img-content 
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        div.cards
+          h3 Expert teaching
+          div.img-box 
+             img(src="/static/logo4.png")
+             div.img-content 
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  section#sponsorsSection
+        h Our Sponsors
+        div.sponsors 
+            img(src="/static/logo5.png")        
+            img(src="/static/logo6.png")        
+            img(src="/static/logo7.png")        
+            img(src="/static/logo8.png")     
